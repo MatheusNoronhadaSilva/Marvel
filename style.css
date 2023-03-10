@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    background-image: url(./img/background.png);
+    background-size: cover;
+    padding: 70px 70px 70px 70px;
+    background-repeat:no-repeat;
+    background-color: tomato;
+}
+.botões{
+    display: flex;
+    color: whitesmoke;
+    align-items: center;
+    font-size: 18px;
+}
+h1{
+    padding-right: 20px;
+}
+
+.introdução{
+    display: grid;
+    color: whitesmoke;
+    padding-right: 900px;
+    font-size: 40px;
+    margin-top: 100px;
+}
+.quantum{
+    height: 260px;
+}
+.info{
+    margin-top: 20px;
+    padding-right: 20px;
+}
+.videos{
+    padding: 100px 0 0 0;
+}
+.v1{
+    padding-right: 30px;
+    height: 200px;
+}
+.v2{
+    padding-right: 30px;
+    height: 200px;
+}
+.v3{
+    height: 200px;
+}
+
+.redes{
+    display: flex;
+    flex-direction: column;
+    position: absolute; right: 40px; top: 360px;
+}
+.Y{
+    height: 40px;
+}
+.T{
+    height: 40px;
+    margin-top: 40px;
+}
+.I{
+    height: 40px;
+    margin-top: 40px;
+}
+.F{
+    height: 40px;
+    margin-top: 40px;
+}
